@@ -1,4 +1,4 @@
-    window.addEventlistener(`load`, setup);
+    window.addEventListener(`load`, setup);
 
     function setup(){
         const form = document.forms.entrada;
