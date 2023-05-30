@@ -1,16 +1,33 @@
-html { font-family: 
-    'Trebuchet MS', 'Lucida Sans Unicode',
-     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-
-main { display: flex;}
-
-header h1 {
-    margin-bottom: 0.2rem;
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-     
-#formulario,   #itens { width: 200px;}
 
-#itens{ min-height: 300px;}
+main{
+    display: flex;
+}
 
-section > h1 { margin-top: 0px; font-size:1.2rem;}
+header{
+    background-color: black;
+    color: white;
+}
 
+header h1{
+    margin-bottom: 0;
+}
+
+header h2{
+    margin-top: 0.2rem;
+    opacity: 0.0;
+}
+
+#formulario, #itens{
+    width: 200px;
+}
+
+#itens{
+    min-height: 300px;
+}
+
+section > h1{
+    margin-top: 0;
+}
